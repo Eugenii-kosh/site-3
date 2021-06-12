@@ -1,0 +1,152 @@
+body .hd {
+  width: 1130px;
+  height: 88px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body .hd .nav {
+  position: absolute;
+  text-align: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 3px;
+  margin-bottom: 32px;
+  margin-right: 40px;
+  margin-left: 800px;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+body .hd .nav a {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Heebo", sans-serif;
+  font-size: 20px;
+  line-height: 29px;
+  height: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: black;
+  text-decoration: none;
+}
+
+body .center {
+  height: 856px;
+  width: 605px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 250px;
+  margin-top: auto;
+}
+
+body .center .center-content {
+  height: 193px;
+  width: auto;
+  margin: 0px 0px 30px 0px;
+  -webkit-box-shadow: 0px 5px 10px rgba(122, 122, 122, 0.178);
+          box-shadow: 0px 5px 10px rgba(122, 122, 122, 0.178);
+}
+
+body .center .center-top {
+  font-size: 44px;
+  line-height: 60px;
+  font-style: normal;
+  font-weight: bold;
+  margin: 2px 15px 15px 8px;
+  font-family: "Heebo", sans-serif;
+  color: #21243D;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+}
+
+body .center .center-content .content-1-title {
+  font-size: 26px;
+  line-height: 38px;
+  font-weight: 300;
+  font-style: normal;
+  margin: 10px 15px 10px 5px;
+  color: #21243D;
+}
+
+body .center .center-content .content-1-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 250px;
+  height: 35px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 0px 0px 5px;
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: normal;
+  font-style: normal;
+  color: #21243D;
+}
+
+body .center .center-content .content-1-center .ret {
+  color: #acadad;
+}
+
+body .center .center-content .content-1-foot {
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: normal;
+  margin: 2px 15px 10px 5px;
+  color: #21243D;
+}
+
+body .ft {
+  width: 856px;
+  height: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+body .ft .ft-main {
+  width: auto;
+  height: auto;
+}
+
+body .ft .ft-main .imgs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  margin-bottom: auto;
+}
+
+body .ft .ft-main .text {
+  font-size: 14px;
+  font-family: "Heebo", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #21243D;
+  margin: 30px 0px 0px 320px;
+}

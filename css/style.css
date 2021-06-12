@@ -1,0 +1,376 @@
+body .hd {
+  width: 1130px;
+  height: 88px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body .hd .nav {
+  position: absolute;
+  text-align: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 3px;
+  margin-bottom: 32px;
+  margin-right: 40px;
+  margin-left: 800px;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+body .hd .nav a {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Heebo", sans-serif;
+  font-size: 20px;
+  line-height: 29px;
+  height: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: black;
+  text-decoration: none;
+}
+
+body .bd {
+  width: 856px;
+  height: 1611px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 122px;
+  margin-bottom: 74px;
+}
+
+body .bd .up {
+  height: 385px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-flow: row-reverse;
+          flex-flow: row-reverse;
+}
+
+body .bd .up .photo {
+  margin-top: 0px;
+  margin-left: 120px;
+  margin-right: 0px;
+  margin-bottom: auto;
+  border-radius: 55%;
+  background-color: #e1e7f6;
+  padding: 0px 0px 10px 10px;
+}
+
+body .bd .up .about {
+  font-family: "Heebo", sans-serif;
+  color: #21243D;
+}
+
+body .bd .up .about .hi {
+  font-size: 44px;
+  line-height: 60px;
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 18px;
+  margin-bottom: 42px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body .bd .up .about .text {
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: normal;
+  font-style: normal;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: 38px;
+  margin-left: auto;
+}
+
+body .bd .up .about a {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29px;
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 9px;
+  background-color: #ce566e;
+  border-radius: 20px;
+}
+
+body .bd .up .about a:hover {
+  background-color: crimson;
+}
+
+body .bd .center {
+  height: 396px;
+  width: 100%;
+  background-color: #d3fff588;
+  border-radius: 12px;
+  background-clip: initial;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Heebo", sans-serif;
+  color: #21243D;
+}
+
+body .bd .center .center-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .bd .center .center-content .content-1 {
+  background-color: rgba(199, 240, 255, 0.383);
+  margin: 7px;
+  border-radius: 12px;
+}
+
+body .bd .center .center-content .content-1:hover {
+  background-color: #b5eaff;
+  border-radius: 15px;
+}
+
+body .bd .center .center-content .content-2:hover {
+  background-color: #b5eaff;
+  border-radius: 15px;
+}
+
+body .bd .center .center-content .content-2 {
+  background-color: rgba(199, 240, 255, 0.383);
+  margin: 7px;
+  border-radius: 12px;
+}
+
+body .bd .center .center-content .content-1-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 300px;
+  margin: 0px 0px 0px 45px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body .bd .center .center-content .content-2-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 300px;
+  margin: 0px 0px 0px 45px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body .bd .center .center-top {
+  font-size: 22px;
+  line-height: 60px;
+  font-style: normal;
+  font-weight: normal;
+  margin: 2px 15px 15px 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .bd .center .center-top a {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  color: #00A8CC;
+  text-decoration: none;
+}
+
+body .bd .center .center-content .content-1-title {
+  font-size: 26px;
+  line-height: 38px;
+  font-weight: bold;
+  font-style: normal;
+  margin: 10px 15px 10px 5px;
+}
+
+body .bd .center .center-content .content-2-title {
+  font-size: 26px;
+  line-height: 38px;
+  font-weight: bold;
+  font-style: normal;
+  margin: 10px 15px 10px 5px;
+}
+
+body .bd .center .center-content .content-1-foot {
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: normal;
+  margin: 2px 15px 10px 5px;
+}
+
+body .bd .center .center-content .content-2-foot {
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: normal;
+  margin: 2px 15px 10px 5px;
+}
+
+body .bd .down {
+  width: auto;
+  height: 785px;
+  background-color: white;
+  overflow-y: scroll;
+  margin: 7px 0px 0px 0px;
+}
+
+body .bd .down::-webkit-scrollbar {
+  width: 5px;
+}
+
+body .bd .down::-webkit-scrollbar-thumb {
+  background-color: #e0d9d9;
+  border-radius: 20px;
+}
+
+body .bd .down::-webkit-scrollbar-thumb:hover {
+  background-color: #a1a1b1;
+}
+
+body .bd .down .self-works ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-family: "Heebo", sans-serif;
+}
+
+body .bd .down .works {
+  font-family: "Heebo", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 60px;
+  color: #21243D;
+}
+
+body .bd .down .self-works ul li .content .title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 10px 5px 5px 5px;
+  color: #21243D;
+}
+
+body .bd .down .self-works ul li .content .year {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 300px;
+}
+
+body .bd .down .self-works ul li .content .year .y {
+  font-size: 18px;
+  font-weight: 900;
+  font-style: normal;
+  color: white;
+  background-color: #142850;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+}
+
+body .bd .down .self-works ul li .content .year p {
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  color: #8695A4;
+  padding-top: 10px;
+  padding-bottom: initial;
+}
+
+body .bd .down .self-works ul li .content .text {
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  color: #21243D;
+}
+
+body .bd .down .self-works ul li .photo {
+  margin: 20px 15px auto 5px;
+}
+
+body .bd .down .self-works ul li {
+  padding: 5px;
+  -webkit-box-shadow: 5px 5px 15px #bebebe;
+          box-shadow: 5px 5px 15px #bebebe;
+}
+
+body .ft {
+  width: 856px;
+  height: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+body .ft .ft-main {
+  width: auto;
+  height: auto;
+}
+
+body .ft .ft-main .imgs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  margin-bottom: auto;
+}
+
+body .ft .ft-main .text {
+  font-size: 14px;
+  font-family: "Heebo", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #21243D;
+  margin: 30px 0px 0px 320px;
+}
